@@ -8,7 +8,7 @@ export default (
 
 	<Switch>
 		<Route path='/' exact component={ Flashcard } />
-		<Route path='/flashcards' exact component={ Categories } />
+		<Route path='/categories' exact component={ Categories } />
 		<Route path='/finalscore' exact component={ FinalScore } />
 	</Switch>
 );
