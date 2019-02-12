@@ -20,8 +20,8 @@
     "postinstall": "react-scripts build"
   },
   "engines": {
-    "node": "~6.10.3",
-    "npm": "~5.6.0"
+    "node": "~11.9.0",
+    "npm": "~6.5.0"
   },
   "devDependencies": {
     "babel-plugin-transform-object-assign": "^6.22.0",
