@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {withRouter} from "react-router-dom";
+import {withRouter, Link} from "react-router-dom";
 import {connect} from "react-redux";
 import _ from "underscore";
 import {setActiveDeck, setScore} from "../actions";
@@ -10,16 +10,16 @@ class Decks extends Component {
             return (
 
                 <div className='list-group text-center' key={deck.deck + '-list'}>
-                    <button
+                    <Link
+                        to='/'
                         key={deck.deck}
                         onClick={() => {
                             this.props.setScore(0);
                             this.props.selectDeck(deck.id);
-                            this.props.history.push('/flashcards');
                         }}
                         className='list-group-item list-group-item-primary'>
                         <b>{deck.deck}</b>
-                    </button>
+                    </Link>
                 </div>
             )
         });
