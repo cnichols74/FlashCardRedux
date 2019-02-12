@@ -7,8 +7,8 @@ import FinalScore from './containers/FinalScore';
 export default (
 
 	<Switch>
-		<Route path='/' exact component={ App } />
-		<Route path='/flashcards' component={ FlashcardList } />
-		<Route path='/finalscore' component={ FinalScore } />
+		<Route path='/' exact component={ FlashcardList } />
+		<Route path='/flashcards' exact component={ FlashcardList } />
+		<Route path='/finalscore' exact component={ FinalScore } />
 	</Switch>
 );

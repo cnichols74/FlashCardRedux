@@ -16,7 +16,7 @@ class FinalScore extends Component {
     render() {
 
         return (
-            <div>
+            <div className="justify-content-center centerList ">
                 <h1 className="centerList finalScore">Final Score:&nbsp;{this.props.currentScore}</h1>
                 <div className='row'>
                     <div className='col-md-12 text-center'>

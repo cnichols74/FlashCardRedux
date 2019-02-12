@@ -7,7 +7,7 @@ class Cards extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {cardIndex: 0, shuffledCards: []};
+        this.state = {cardIndex: 0, activeDeckId: 0};
         this.getNextCard = this.getNextCard.bind(this);
     }
 
@@ -16,6 +16,7 @@ class Cards extends Component {
         if (this.state.cardIndex === this.props.activeDeck.cards.length - 1) {
             // Show Final Score after finished.
             this.props.history.push("/finalscore");
+            this.setState({cardIndex:0});
         } else {
             // Add one to the index and go to the next card.
             let nextCard = this.state.cardIndex + 1;

@@ -3,11 +3,12 @@ body {
 }
 
 .finalScore {
-    margin-left: 23px;
+    margin-bottom: 15px;
     color: navajowhite;
 }
 
 .centerList {
+    margin: auto;
     margin-top: 25px;
     max-width: 310px;
 }
