@@ -1,5 +1,4 @@
 ###FLASHCARD REACT REDUX- ATHN ASSIGNMENT 
-![picture alt](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg "Title is optional")
 
 **Description: 
 Build a flash card application in React using your own 
