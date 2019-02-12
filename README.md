@@ -21,7 +21,7 @@ category at the beginning of a round and will only be presented flash cards in t
 Notes
 
 ```
-git clone https://github.com/cnichols74/FlashCard-React-Redux-Assignment.git
+git clone https://github.com/cnichols74/FlashCardRedux.git
 cd FlashCardRedux
 npm install
 npm start
