@@ -18,6 +18,7 @@ Other Features or Enhancements to consider
 * Each card will be assigned to a category for grouping purposes (user can choose a
 category at the beginning of a round and will only be presented flash cards in that category)
 Notes
+
 ##Demo- Live on Heroku => https://flashcardreactredux.herokuapp.com/
 ```
 git clone https://github.com/cnichols74/FlashCardRedux.git
